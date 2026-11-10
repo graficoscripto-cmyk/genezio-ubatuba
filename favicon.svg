@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#06232B"/>
+  <rect x="14" y="14" width="484" height="484" rx="90" fill="#09303B" stroke="#F0B429" stroke-width="12"/>
+  <circle cx="256" cy="256" r="204" fill="none" stroke="#1CC5B8" stroke-width="5" stroke-opacity="0.75"/>
+  <!-- 8-point Compass Rose -->
+  <g fill="#1CC5B8" opacity="0.92">
+    <polygon points="256,256 268,222 358,154 290,244"/>
+    <polygon points="256,256 290,268 358,358 268,290"/>
+    <polygon points="256,256 244,290 154,358 222,268"/>
+    <polygon points="256,256 222,244 154,154 244,222"/>
+  </g>
+  <!-- North -->
+  <polygon points="256,256 220,218 256,54" fill="#F5F1E8"/>
+  <polygon points="256,256 256,54 292,218" fill="#F0B429"/>
+  <!-- East -->
+  <polygon points="256,256 294,220 458,256" fill="#F5F1E8"/>
+  <polygon points="256,256 458,256 294,292" fill="#F0B429"/>
+  <!-- South -->
+  <polygon points="256,256 292,294 256,458" fill="#F5F1E8"/>
+  <polygon points="256,256 256,458 220,294" fill="#F0B429"/>
+  <!-- West -->
+  <polygon points="256,256 218,292 54,256" fill="#F5F1E8"/>
+  <polygon points="256,256 54,256 218,220" fill="#F0B429"/>
+  <!-- Center Boat Medallion -->
+  <circle cx="256" cy="256" r="66" fill="#06232B" stroke="#F0B429" stroke-width="7"/>
+  <line x1="220" y1="230" x2="292" y2="230" stroke="#F0B429" stroke-width="7" stroke-linecap="round"/>
+  <line x1="230" y1="230" x2="222" y2="264" stroke="#1CC5B8" stroke-width="5"/>
+  <line x1="282" y1="230" x2="288" y2="264" stroke="#1CC5B8" stroke-width="5"/>
+  <polygon points="208,264 304,264 288,288 224,288" fill="#F5F1E8"/>
+</svg>
