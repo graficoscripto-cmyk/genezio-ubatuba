@@ -40,7 +40,7 @@
 {"@type":["BoatTrip","TouristTrip"],"name":"Tour 7 Praias Desertas e Piscinas Naturais","description":"Passeio de barco pelas praias Oeste, Peres, Bonete, Grande do Bonete, Deserta e Cedro do Sul, com paradas para banho e mergulho livre.","provider":{"@id":"https://genezio-ubatuba.vercel.app/#negocio"},"touristType":"Famílias, casais e grupos"},
 {"@type":["BoatTrip","TouristTrip"],"name":"Ilha do Mar Virado, Ilha Anchieta e Sete Fontes","description":"Travessia pelas águas calmas da Ilha do Mar Virado e Ilha Anchieta com vida marinha e parada para banho.","provider":{"@id":"https://genezio-ubatuba.vercel.app/#negocio"}},
 {"@type":["BoatTrip","TouristTrip"],"name":"Praia da Fortaleza, Pontão e Piscinas Naturais","description":"Passeio tranquilo em águas rasas, ideal para famílias com crianças.","provider":{"@id":"https://genezio-ubatuba.vercel.app/#negocio"}},
-{"@type":"FAQPage","mainEntity":[
+{"@type":"VideoObject","@id":"https://genezio-ubatuba.vercel.app/#video-1","name":"Baleia saltando no mar, vista do Genézio I","description":"Vídeo real do passeio de barco do Genézio saindo da Praia da Lagoinha, em Ubatuba: uma baleia salta no mar à frente do barco.","thumbnailUrl":"https://genezio-ubatuba.vercel.app/img/poster-1.webp","contentUrl":"https://genezio-ubatuba.vercel.app/video/passeio-1.mp4","uploadDate":"2026-11-10","duration":"PT36S","width":576,"height":1024,"inLanguage":"pt-BR","publisher":{"@id":"https://genezio-ubatuba.vercel.app/#negocio"},"isPartOf":{"@id":"https://genezio-ubatuba.vercel.app/#webpage"}},{"@type":"VideoObject","@id":"https://genezio-ubatuba.vercel.app/#video-2","name":"A bordo do Genézio I rumo às praias","description":"Vídeo real a bordo do Genézio I em Ubatuba: passageiros sob a capota, águas verdes e o sol refletindo no mar.","thumbnailUrl":"https://genezio-ubatuba.vercel.app/img/poster-2.webp","contentUrl":"https://genezio-ubatuba.vercel.app/video/passeio-2.mp4","uploadDate":"2026-11-10","duration":"PT17S","width":576,"height":1024,"inLanguage":"pt-BR","publisher":{"@id":"https://genezio-ubatuba.vercel.app/#negocio"},"isPartOf":{"@id":"https://genezio-ubatuba.vercel.app/#webpage"}},{"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"De onde sai o passeio?","acceptedAnswer":{"@type":"Answer","text":"Da Praia da Lagoinha, na Av. Copacabana, Ubatuba - SP. O embarque é direto na areia rasa."}},
 {"@type":"Question","name":"Posso levar meu pet?","acceptedAnswer":{"@type":"Answer","text":"Sim. O Genézio I é pet friendly."}},
 {"@type":"Question","name":"Crianças podem ir?","acceptedAnswer":{"@type":"Answer","text":"Sim. Há coletes salva-vidas homologados para todas as idades."}},
@@ -260,6 +260,22 @@ footer img{width:64px;height:64px;margin:0 auto 14px;border-radius:50%}
 footer a{color:var(--aqua);display:inline-flex;align-items:center;min-height:44px;padding:0 6px}
 .fab{position:fixed;right:16px;bottom:16px;width:56px;height:56px;border-radius:50%;background:var(--wa);display:grid;place-items:center;z-index:60;box-shadow:0 10px 26px rgba(0,0,0,.35)}
 .fab svg{width:30px;height:30px;fill:#fff}
+
+/* videos */
+.vids{--bg:var(--navy);background:linear-gradient(180deg,#0B3540,#082A33);color:#fff}
+.vgrid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:30px var(--pad) 10px;margin:0 calc(var(--pad)*-1);scrollbar-width:none;justify-content:flex-start}
+.vgrid::-webkit-scrollbar{display:none}
+.vp{position:relative;flex:none;width:74%;max-width:320px;aspect-ratio:9/16;border-radius:26px;overflow:hidden;background:#041A22;scroll-snap-align:center;box-shadow:0 26px 50px -20px rgba(0,0,0,.7);border:1px solid rgba(125,243,231,.22)}
+.vp video{display:block;width:100%;height:100%;object-fit:cover}
+.vplay{position:absolute;left:50%;top:50%;width:72px;height:72px;margin:-36px 0 0 -36px;border-radius:50%;border:0;background:rgba(240,180,41,.95);display:grid;place-items:center;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:transform .2s,opacity .25s}
+.vplay svg{width:30px;height:30px;fill:var(--abyss);margin-left:3px}
+.vp.on .vplay{opacity:0;pointer-events:none;transform:scale(.7)}
+.vctl{position:absolute;right:12px;bottom:12px;display:flex;gap:10px}
+.vctl button{width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(6,35,43,.62);backdrop-filter:blur(8px);display:grid;place-items:center;cursor:pointer}
+.vctl svg{width:24px;height:24px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.vsnd .i-on{display:none}.vsnd[aria-pressed=true] .i-on{display:block}.vsnd[aria-pressed=true] .i-off{display:none}
+.vp figcaption{position:absolute;left:0;right:70px;bottom:0;padding:44px 16px 16px;font-weight:700;font-size:.95rem;line-height:1.25;background:linear-gradient(to top,rgba(4,26,34,.9),transparent);text-shadow:0 2px 8px rgba(0,0,0,.6);pointer-events:none}
+@media(min-width:760px){.vgrid{justify-content:center;overflow:visible;gap:28px;margin:0}.vp{width:300px;flex:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .track{height:auto}.js .stick{position:static;height:auto;overflow:visible}}
 </style>
 </head>
@@ -408,6 +424,16 @@ footer a{color:var(--aqua);display:inline-flex;align-items:center;min-height:44p
   </div>
   <div class="prog"><i id="pStrip"></i></div>
   <a class="btn btn-gold ig" href="https://www.instagram.com/genezio_passeios_de_barco" target="_blank" rel="noopener">@genezio_passeios_de_barco</a>
+ </div>
+</section>
+
+<section class="vids dark" id="videos" aria-labelledby="vd">
+ <div class="wvw" aria-hidden="true"><svg viewBox="0 0 2880 80" preserveAspectRatio="none"><path d="M0 40C240 0 480 80 720 40C960 0 1200 80 1440 40C1680 0 1920 80 2160 40C2400 0 2640 80 2880 40V80H0Z"/></svg><svg viewBox="0 0 2880 80" preserveAspectRatio="none"><path d="M0 40C240 0 480 80 720 40C960 0 1200 80 1440 40C1680 0 1920 80 2160 40C2400 0 2640 80 2880 40V80H0Z"/></svg></div>
+ <div class="wrap">
+  <span class="eyebrow">Vídeos reais no mar</span>
+  <h2 id="vd">Viva o passeio na prática</h2>
+  <p class="lead">Som ligado, vista aberta.</p>
+  <div class="vgrid"><figure class="vp" data-v><video playsinline muted loop preload="metadata" poster="img/poster-1.webp" width="576" height="1024" aria-label="Vídeo real: baleia saltando no mar vista do barco Genézio I"><source src="video/passeio-1.mp4" type="video/mp4"></video><button type="button" class="vplay" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button><div class="vctl"><button type="button" class="vsnd" aria-label="Ativar som" aria-pressed="false"><svg class="i-off" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16 9l5 6M21 9l-5 6"/></svg><svg class="i-on" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16 8c2 2 2 6 0 8M19 5c4 4 4 10 0 14"/></svg></button><button type="button" class="vfs" aria-label="Tela cheia"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></div><figcaption>Baleia no caminho do passeio</figcaption></figure><figure class="vp" data-v><video playsinline muted loop preload="metadata" poster="img/poster-2.webp" width="576" height="1024" aria-label="Vídeo real: passeio a bordo do Genézio I com o sol refletindo no mar"><source src="video/passeio-2.mp4" type="video/mp4"></video><button type="button" class="vplay" aria-label="Reproduzir vídeo"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button><div class="vctl"><button type="button" class="vsnd" aria-label="Ativar som" aria-pressed="false"><svg class="i-off" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16 9l5 6M21 9l-5 6"/></svg><svg class="i-on" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9zM16 8c2 2 2 6 0 8M19 5c4 4 4 10 0 14"/></svg></button><button type="button" class="vfs" aria-label="Tela cheia"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></div><figcaption>A bordo, rumo às praias</figcaption></figure></div>
  </div>
 </section>
 
@@ -637,6 +663,25 @@ footer a{color:var(--aqua);display:inline-flex;align-items:center;min-height:44p
   }
  }else{$('#intro').style.display='none'}
 
+
+ /* videos: autoplay mudo ao entrar na tela, som e tela cheia */
+ (function(){
+  var vps=$$('.vp'),save=navigator.connection&&navigator.connection.saveData;
+  function sync(vp){var v=vp.querySelector('video');vp.classList.toggle('on',!v.paused)}
+  vps.forEach(function(vp){
+   var v=vp.querySelector('video'),snd=vp.querySelector('.vsnd'),fs=vp.querySelector('.vfs'),pl=vp.querySelector('.vplay');
+   function play(){var p=v.play();if(p&&p.catch)p.catch(function(){});}
+   pl.addEventListener('click',function(){play()});
+   v.addEventListener('click',function(){if(v.paused)play();else v.pause()});
+   v.addEventListener('play',function(){sync(vp)});v.addEventListener('pause',function(){sync(vp)});
+   snd.addEventListener('click',function(){var on=v.muted;vps.forEach(function(o){var ov=o.querySelector('video');if(ov!==v){ov.muted=true;o.querySelector('.vsnd').setAttribute('aria-pressed','false');o.querySelector('.vsnd').setAttribute('aria-label','Ativar som')}});v.muted=!on;snd.setAttribute('aria-pressed',on?'true':'false');snd.setAttribute('aria-label',on?'Desativar som':'Ativar som');if(on&&v.paused)play()});
+   fs.addEventListener('click',function(){if(v.requestFullscreen)v.requestFullscreen().catch(function(){});else if(v.webkitEnterFullscreen)v.webkitEnterFullscreen();else if(v.webkitRequestFullscreen)v.webkitRequestFullscreen();});
+  });
+  if('IntersectionObserver' in window&&!reduce&&!save){
+   var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target.querySelector('video');if(e.isIntersecting&&e.intersectionRatio>=.6){var p=v.play();if(p&&p.catch)p.catch(function(){})}else if(!v.paused){v.pause()}})},{threshold:[0,.6]});
+   vps.forEach(function(vp){io.observe(vp)});
+  }
+ })();
  /* WebMCP */
  try{
   if(navigator.modelContext&&navigator.modelContext.registerTool){

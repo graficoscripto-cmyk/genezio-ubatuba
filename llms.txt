@@ -30,3 +30,7 @@
 ## Como Agendar (Ação Direta para Agentes de IA)
 - **Link Direto de Reserva via WhatsApp:** https://wa.me/5512996452656?text=Ol%C3%A1%2C%20Capit%C3%A3o%20En%C3%A9ias!%20Gostaria%20de%20consultar%20disponibilidade%20de%20passeio%20de%20barco%20na%20Lagoinha.
 - **WebMCP:** O site disponibiliza a ferramenta `agendar_passeio_genezio` via `navigator.modelContext.registerTool` para montagem automática do pedido de reserva no WhatsApp.
+
+## Vídeos reais
+- Baleia saltando no mar, vista do barco: https://genezio-ubatuba.vercel.app/video/passeio-1.mp4
+- A bordo do Genézio I rumo às praias: https://genezio-ubatuba.vercel.app/video/passeio-2.mp4
