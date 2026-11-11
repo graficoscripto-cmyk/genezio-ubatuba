@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://genezio-ubatuba.vercel.app/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://geneziopasseiodebarco.de/</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://genezio-ubatuba.vercel.app/img/hero-1180.webp</image:loc>
+      <image:loc>https://geneziopasseiodebarco.de/img/hero-1180.webp</image:loc>
       <image:title>Genézio- Passeios de Barco Lagoinha Ubatuba</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://genezio-ubatuba.vercel.app/img/barco-genezio.webp</image:loc>
+      <image:loc>https://geneziopasseiodebarco.de/img/barco-genezio.webp</image:loc>
       <image:title>Embarcação Genézio I Passeios e Travessias na Praia da Lagoinha</image:title>
     </image:image>
   </url>

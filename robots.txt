@@ -1,7 +1,14 @@
 # Genézio- Passeios de Barco Lagoinha Ubatuba
-# Content-Signal: ai-train=yes, search=yes, ai-input=yes
+# Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
 Allow: /
 
 User-agent: GPTBot
@@ -16,13 +23,19 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: anthropic-ai
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Google-Extended
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
@@ -31,4 +44,4 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
-Sitemap: https://genezio-ubatuba.vercel.app/sitemap.xml
+Sitemap: https://geneziopasseiodebarco.de/sitemap.xml

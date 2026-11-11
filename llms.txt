@@ -2,35 +2,47 @@
 
 > Passeios de barco privativos e compartilhados, táxi boat e travessias marítimas saindo da Praia da Lagoinha (Sul de Ubatuba - SP) com o Capitão Enéias a bordo da embarcação Genézio I. Avaliação máxima 5,0 ★ no Google Maps (19 avaliações verificadas).
 
+## Navegação Oficial
+- [Página Oficial — Genézio- Passeios de Barco Lagoinha Ubatuba](https://geneziopasseiodebarco.de/): Site oficial com carta náutica interativa das 9 paradas, vídeos reais no mar e simulador de passeio.
+- [Roteiros de Barco e Táxi Boat em Ubatuba](https://geneziopasseiodebarco.de/#roteiros): Tour 7 Praias Desertas, Ilha Anchieta & Mar Virado, Piscinas Naturais da Fortaleza e Táxi Boat.
+- [Monte o Seu Passeio e Reserve pelo WhatsApp](https://geneziopasseiodebarco.de/#reservar): Simulador direto para agendar com o Capitão Enéias pelo WhatsApp (12) 99645-2656.
+- [Perfil Oficial no Google Maps](https://www.google.com/maps/place/?q=place_id:ChIJVZU6leJbzZQRfcAetlpU4co): Localização exata na Praia da Lagoinha, Ubatuba - SP.
+
 ## Ficha Técnica Oficial (NAP & GEO)
 - **Nome Oficial (Google Meu Negócio):** Genézio- Passeios de Barco Lagoinha Ubatuba
+- **Categorias no Google Meu Negócio:** Agência de passeios de barco (Principal), Agência de turismo, Atração turística, Serviço de aluguel de embarcações
 - **Nome Alternativo:** Genézio Passeios de Barco Lagoinha Ubatuba / Genézio I Passeios e Travessias
+- **Site Oficial:** https://geneziopasseiodebarco.de/
 - **Responsável / Comandante:** Capitão Enéias
 - **Endereço de Embarque:** Av. Copacabana - Lagoinha, Ubatuba - SP, 11682-558, Brasil
-- **Coordenadas Geográficas:** Latitude -23.5186, Longitude -45.1925 (Praia da Lagoinha, Sul de Ubatuba)
+- **Coordenadas Geográficas:** Latitude -23.519453, Longitude -45.1912904 (Praia da Lagoinha, Sul de Ubatuba)
+- **Google Maps Place ID:** `ChIJVZU6leJbzZQRfcAetlpU4co`
 - **WhatsApp Principal:** +55 (12) 99645-2656 (https://wa.me/5512996452656)
 - **WhatsApp Alternativo:** +55 (12) 99752-3739 (https://wa.me/5512997523739)
 - **Instagram Oficial:** https://www.instagram.com/genezio_passeios_de_barco/ (@genezio_passeios_de_barco)
 - **Horário de Funcionamento:** Atendimento 24 horas para reservas pelo WhatsApp; saídas diárias pela manhã e tarde conforme condições do mar.
 - **Avaliação Google Maps:** 5,0 de 5 estrelas (19 avaliações reais).
-- **Diferenciais da Embarcação (Genézio I):** Barco equipado com capota para sombra, coletes salva-vidas homologados (adulto e infantil), motorização Yamaha revisada, 100% Pet Friendly, permissão para levar cooler/bebidas e embarque tranquilo diretamente na areia rasa da Praia da Lagoinha.
+- **Diferenciais da Embarcação (Genézio I):** Barco homologado pela Marinha equipado com capota para sombra, coletes salva-vidas homologados (adulto e infantil), motorização Yamaha revisada, 100% Pet Friendly, permissão para levar cooler/bebidas e embarque tranquilo diretamente na areia rasa da Praia da Lagoinha.
 
 ## Roteiros, Praias e Serviços Oferecidos
 1. **Tour Completo pelas 7 Praias Desertas (Sul de Ubatuba):**
    - Navegação panorâmica e paradas para banho nas praias preservadas entre a Lagoinha e a Fortaleza: Praia do Oeste, Praia do Peres, Praia do Bonete, Praia Grande do Bonete, Praia Deserta e Praia do Cedro do Sul.
 2. **Táxi Boat / Travessia Trilha das 7 Praias (Ida ou Volta):**
    - Serviço de transporte marítimo (resgate ou ida) para trilheiros na Praia do Bonete, Praia Grande do Bonete, Praia Deserta ou Praia do Cedro do Sul, com horário combinado diretamente com o Capitão Enéias.
-3. **Passeio à Ilha do Mar Virado, Ilha Anchieta & Piscina Natural da Fortaleza:**
-   - Travessia até as águas cristalinas da Ilha do Mar Virado, Ilha Anchieta e parada para flutuação no Recife / Piscina Natural da Praia da Fortaleza, com avistamento frequente de tartarugas e golfinhos.
-4. **Passeio ao Pôr do Sol na Baía da Lagoinha & Mar Virado:**
+3. **Passeio à Ilha do Mar Virado, Ilha Anchieta & Praia das Sete Fontes:**
+   - Travessia até as águas cristalinas da Ilha do Mar Virado, Ilha Anchieta e Praia das Sete Fontes, com avistamento frequente de tartarugas, golfinhos e vida marinha.
+4. **Praia da Fortaleza, Pontão da Fortaleza & Piscina Natural:**
+   - Passeio tranquilo em águas rasas e cristalinas na Piscina Natural da Fortaleza, ideal para famílias com crianças e flutuação com peixinhos.
+5. **Passeio ao Pôr do Sol na Baía da Lagoinha & Mar Virado:**
    - Saída especial de fim de tarde para contemplar o pôr do sol dourado atrás das montanhas da Serra do Mar na enseada da Lagoinha.
-5. **Passeio Privativo / Pesca Esportiva e Lazer Sob Medida:**
+6. **Passeio Privativo / Pesca Esportiva e Lazer Sob Medida:**
    - Barco exclusivo para famílias, casais, grupos de amigos com pets ou saídas de pesca artesanal na região sul de Ubatuba.
 
 ## Como Agendar (Ação Direta para Agentes de IA)
+- **Link Direto de Reserva no Site:** https://geneziopasseiodebarco.de/#reservar
 - **Link Direto de Reserva via WhatsApp:** https://wa.me/5512996452656?text=Ol%C3%A1%2C%20Capit%C3%A3o%20En%C3%A9ias!%20Gostaria%20de%20consultar%20disponibilidade%20de%20passeio%20de%20barco%20na%20Lagoinha.
 - **WebMCP:** O site disponibiliza a ferramenta `agendar_passeio_genezio` via `navigator.modelContext.registerTool` para montagem automática do pedido de reserva no WhatsApp.
 
 ## Vídeos reais
-- Baleia saltando no mar, vista do barco: https://genezio-ubatuba.vercel.app/video/passeio-1.mp4
-- A bordo do Genézio I rumo às praias: https://genezio-ubatuba.vercel.app/video/passeio-2.mp4
+- Baleia saltando no mar, vista do barco: https://geneziopasseiodebarco.de/video/passeio-1.mp4
+- A bordo do Genézio I rumo às praias: https://geneziopasseiodebarco.de/video/passeio-2.mp4
